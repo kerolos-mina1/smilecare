@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmileCare — Premium Dental Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+                    Smile<span class="accent">Care</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why">Why Us</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary" style="display:inline-flex">
+                    <i class="fa-regular fa-calendar"></i> Book Now
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#why" class="mobile-link">Why Us</a>
+            <a href="#testimonials" class="mobile-link">Reviews</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="#contact" class="btn btn-primary">
+                <i class="fa-regular fa-calendar"></i> Book Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="dot"></span> Accepting New Patients
+                    </div>
+                    <h1 class="hero-title">
+                        Your Perfect <span class="highlight">Smile</span><br>Starts Here
+                    </h1>
+                    <p class="hero-sub">
+                        World-class dental care in a warm, modern environment. From routine
+                        cleanings to complete smile makeovers — we've got you covered.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fa-regular fa-calendar-check"></i> Book an Appointment
+                        </a>
+                        <a href="#services" class="btn btn-outline">
+                            Explore Services <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <strong>12K+</strong>
+                            <span>Happy Patients</span>
+                        </div>
+                        <div class="hero-stat">
+                            <strong>18 yrs</strong>
+                            <span>Experience</span>
+                        </div>
+                        <div class="hero-stat">
+                            <strong>4.9★</strong>
+                            <span>Average Rating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-img-wrap">
+                        <div class="hero-img-placeholder">
+                            <i class="fa-solid fa-tooth"></i>
+                            <p>Your Clinic Photo Here</p>
+                        </div>
+                        <!-- Floating card 1 -->
+                        <div class="float-card float-card-1">
+                            <div class="fc-icon" style="background:#f0fdf4;color:#22c55e;">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <span>100% Safe &amp; Sterile</span>
+                        </div>
+                        <!-- Floating card 2 -->
+                        <div class="float-card float-card-2">
+                            <div class="fc-icon" style="background:#fff7ed;color:#f59e0b;">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span>Top Rated Clinic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-tag">What We Offer</span>
+                <h2 class="section-title">Comprehensive Dental Services</h2>
+                <p class="section-sub">
+                    From preventive care to advanced cosmetic treatments — everything your
+                    family's smile needs, under one roof.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- 1 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <div class="sc-title">Teeth Whitening</div>
+                    <p class="sc-desc">Brighten your smile by up to 10 shades with our professional in-office whitening
+                        treatments, safe for sensitive teeth.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+                <!-- 2 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <div class="sc-title">Dental Implants</div>
+                    <p class="sc-desc">Permanent, natural-looking replacements for missing teeth. Our implants look,
+                        feel, and function just like real teeth.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+                <!-- 3 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-align-center"></i></div>
+                    <div class="sc-title">Braces &amp; Aligners</div>
+                    <p class="sc-desc">Straighten your teeth discreetly with clear aligners or traditional braces —
+                        tailored to your unique smile goals.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+                <!-- 4 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                    <div class="sc-title">Professional Cleaning</div>
+                    <p class="sc-desc">Deep cleaning and polishing to remove plaque, tartar, and stains — keeping your
+                        gums healthy and your smile fresh.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+                <!-- 5 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-syringe"></i></div>
+                    <div class="sc-title">Root Canal Therapy</div>
+                    <p class="sc-desc">Pain-free root canal treatment using the latest techniques and anaesthesia — save
+                        your natural tooth comfortably.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+                <!-- 6 -->
+                <div class="service-card reveal">
+                    <div class="sc-icon"><i class="fa-solid fa-gem"></i></div>
+                    <div class="sc-title">Porcelain Veneers</div>
+                    <p class="sc-desc">Ultra-thin porcelain shells bonded to the front of your teeth for a flawless,
+                        camera-ready smile transformation.</p>
+                    <a href="#contact" class="sc-link">Learn more <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section id="why">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-tag">Why SmileCare</span>
+                <h2 class="section-title">Care You Can Trust</h2>
+                <p class="section-sub" style="color:rgba(255,255,255,.75)">
+                    We combine clinical excellence with genuine compassion — because a great smile
+                    starts with a dentist you can trust.
+                </p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="wc-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                    <div class="wc-title">Expert Dental Team</div>
+                    <p class="wc-desc">Our board-certified dentists and specialists bring decades of combined experience
+                        and stay current with the latest techniques.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="wc-icon"><i class="fa-solid fa-microscope"></i></div>
+                    <div class="wc-title">Cutting-Edge Technology</div>
+                    <p class="wc-desc">From digital X-rays to 3D imaging and laser dentistry, we use the most advanced
+                        tools for precise, comfortable care.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="wc-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <div class="wc-title">Patient-First Approach</div>
+                    <p class="wc-desc">We listen, explain, and involve you in every decision. Your comfort and
+                        confidence are at the heart of everything we do.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-tag">Patient Reviews</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p class="section-sub">Real stories from real people whose smiles we've transformed.</p>
+            </div>
+
+            <div class="testi-grid">
+                <!-- 1 -->
+                <div class="testi-card reveal">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">I was terrified of the dentist for years. The SmileCare team made me feel
+                        completely at ease. My veneers look absolutely stunning — I can't stop smiling!</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" style="background:linear-gradient(135deg,#667eea,#764ba2)">S</div>
+                        <div>
+                            <div class="testi-name">Sarah Johnson</div>
+                            <div class="testi-role">Marketing Director</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="testi-card reveal">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">Had two implants done here. The process was painless and the results are
+                        incredible — they look exactly like real teeth. Highly recommend SmileCare!</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" style="background:linear-gradient(135deg,#f093fb,#f5576c)">M</div>
+                        <div>
+                            <div class="testi-name">Michael Torres</div>
+                            <div class="testi-role">Software Engineer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="testi-card reveal">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">The whitening treatment gave me dramatic results in just one session. The
+                        staff is warm, professional, and genuinely care about your experience.</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">A</div>
+                        <div>
+                            <div class="testi-name">Amina Khalil</div>
+                            <div class="testi-role">Teacher</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="text-center reveal">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Book Your Appointment</h2>
+                <p class="section-sub">Fill in the form and our team will confirm your appointment within 24 hours.</p>
+            </div>
+
+            <div class="contact-inner reveal">
+                <!-- Info -->
+                <div class="contact-info">
+                    <h3>Visit Us Today</h3>
+                    <p>We're open Monday–Saturday, 9 AM–7 PM. Walk-ins welcome for emergencies.</p>
+
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <div class="ci-label">Phone</div>
+                            <div class="ci-value">+1 (555) 012-3456</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <div class="ci-label">Email</div>
+                            <div class="ci-value">hello@smilecare.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <div class="ci-label">Address</div>
+                            <div class="ci-value">123 Bright Street, Suite 4<br>New York, NY 10001</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div>
+                            <div class="ci-label">Working Hours</div>
+                            <div class="ci-value">Mon–Sat: 9:00 AM – 7:00 PM</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="John" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="Doe" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="john@email.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="+1 (555) 000-0000" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service">
+                            <option value="" disabled selected>Select a service…</option>
+                            <option>Teeth Whitening</option>
+                            <option>Dental Implants</option>
+                            <option>Braces &amp; Aligners</option>
+                            <option>Professional Cleaning</option>
+                            <option>Root Canal Therapy</option>
+                            <option>Porcelain Veneers</option>
+                            <option>General Check-Up</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Notes</label>
+                        <textarea id="message"
+                            placeholder="Any concerns, medical history, or preferred appointment time…"></textarea>
+                    </div>
+                    <button class="btn btn-primary form-submit" id="submitBtn" type="button">
+                        <i class="fa-regular fa-calendar-check"></i> Request Appointment
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fa-solid fa-circle-check" style="color:#22c55e;font-size:1.2rem;"></i>
+                        Thank you! We'll confirm your appointment shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+                        Smile<span class="accent">Care</span>
+                    </a>
+                    <p>Delivering exceptional dental care with compassion and precision since 2006. Your healthy smile
+                        is our mission.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Teeth Whitening</a></li>
+                        <li><a href="#services">Dental Implants</a></li>
+                        <li><a href="#services">Braces &amp; Aligners</a></li>
+                        <li><a href="#services">Cleaning</a></li>
+                        <li><a href="#services">Root Canal</a></li>
+                        <li><a href="#services">Veneers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#why">About Us</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Designed by <strong>Kerolos</strong></span>
+                <span>Designed with <i class="fa-solid fa-heart" style="color:#f87171;"></i> by
+                    <strong>Kerolos</strong></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================== JAVASCRIPT ===================== -->
+    <script src="script.js"></script>
+</body>
+
+</html>
