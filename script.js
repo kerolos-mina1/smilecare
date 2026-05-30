@@ -2,7 +2,7 @@
 // ── Navbar scroll shadow ──────────────────────────────
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 20);
+    navbar.classList.toggle('scrolled', window.scrollY > 500);
 });
 
 // ── Hamburger menu ────────────────────────────────────
